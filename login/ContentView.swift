@@ -116,6 +116,7 @@ struct LoginView: View {
                             
                             NavigationLink {
                                 ForgotPassword()
+                                    
                             } label: {
                                 Text("Forgot Password?")
                                     .foregroundColor(.red)
@@ -124,8 +125,9 @@ struct LoginView: View {
                         }
                         
                         // Login Button
-                        Button {
-                            
+                        NavigationLink {
+                            TabbarView()
+                                .navigationBarBackButtonHidden(true)
                         } label: {
                             Text("Login")
                                 .font(.system(size: 18, weight: .semibold))
@@ -135,6 +137,7 @@ struct LoginView: View {
                                 .background(Color.red.opacity(0.7))
                                 .cornerRadius(15)
                         }
+                        .buttonStyle(.plain)
                         .padding(.top, 20)
                         
                         // 🔥 Sign Up Navigation (WORKING)
@@ -146,6 +149,7 @@ struct LoginView: View {
                             
                             NavigationLink {
                                 SignUpView()
+                                    .navigationBarBackButtonHidden(true)
                             } label: {
                                 Text("Sign up")
                                     .foregroundColor(.red)
