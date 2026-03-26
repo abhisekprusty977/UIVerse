@@ -14,3 +14,13 @@ UIVerse is a modern SwiftUI-based authentication app featuring a clean and elega
 
 <img width="1170" height="2532" alt="Simulator Screenshot - iPhone 16e - 2026-03-24 at 20 35 08" src="https://github.com/user-attachments/assets/31cc1120-42e5-47da-8572-983bb2ce8832" />
 
+
+<img width="1170" height="2532" alt="Simulator Screenshot - iPhone 16e - 2026-03-26 at 23 56 34" src="https://github.com/user-attachments/assets/71272756-9f3e-4cf6-ad9b-32edbcf5c03c" />
+
+
+<img width="1170" height="2532" alt="Simulator Screenshot - iPhone 16e - 2026-03-26 at 23 56 41" src="https://github.com/user-attachments/assets/6ed3ff08-6d79-4ee5-b941-e56ce59412e5" />
+
+
+<img width="1170" height="2532" alt="Simulator Screenshot - iPhone 16e - 2026-03-26 at 23 56 52" src="https://github.com/user-attachments/assets/ee6e8d90-12ff-46ab-94e2-e8a34661e094" />
+
+
