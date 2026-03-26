@@ -63,23 +63,6 @@ struct ForgotPassword: View {
                                 .cornerRadius(18)
                         }
                         .padding(.top, 20)
-                        
-//                        HStack {
-//                            Spacer()
-//                            
-//                            Text("Already have an Account! ")
-//                                .foregroundColor(.gray)
-//                            
-//                            Button {
-//                                dismiss() // ✅ Go back
-//                            } label: {
-//                                Text("Login")
-//                                    .foregroundColor(.red)
-//                            }
-//                            
-//                            Spacer()
-//                        }
-//                        .padding(.bottom, 20)
                     }
                     .padding(20)
                 }

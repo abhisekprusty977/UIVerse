@@ -55,8 +55,10 @@ struct SignUpView: View {
                         // Confirm Password
                         passwordField(title: "Confirm Password", text: $confirmPassword, placeholder: "Enter Your Confirm Your Password...")
                         
-                        // Button
-                        Button(action: {}) {
+                        NavigationLink {
+                            WelcomeViewTwo()
+                                .navigationBarBackButtonHidden(true)
+                        } label: {
                             Text("Create Acount")
                                 .font(.system(size: 18, weight: .semibold))
                                 .foregroundColor(.white)
@@ -65,6 +67,7 @@ struct SignUpView: View {
                                 .background(Color.red.opacity(0.7))
                                 .cornerRadius(18)
                         }
+                        .buttonStyle(.plain)
                         .padding(.top, 20)
                         
                         HStack {
